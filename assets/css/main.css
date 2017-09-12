@@ -5,4 +5,23 @@ body {
 #map {
     height: 90vh;
     width: 100%;
+    border: 2px solid black;
+}
+
+button {
+    margin: 15px auto;
+    padding: 10px 15px;
+    color: white;
+    background-color: #faae27;
+    border: 0;
+    font-weight: 700;
+    border-radius: 2px;
+    font-family: "Raleway";
+    font-size: 15px;
+    display: block;
+}
+
+button:hover,
+button:focus {
+    outline: 0;
 }

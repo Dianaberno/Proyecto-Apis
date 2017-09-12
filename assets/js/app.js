@@ -46,6 +46,7 @@ document.getElementById("encuentrame").addEventListener("click", buscar);
     });
 }
 
+
 function buscar() {
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(funcionExito, funcionError);
